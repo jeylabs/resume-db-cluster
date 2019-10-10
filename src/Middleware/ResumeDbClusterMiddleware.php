@@ -3,7 +3,8 @@
 
 namespace Jeylabs\ResumeDbCluster\Middleware;
 
-
+use Closure;
+use Exception;
 use Illuminate\Http\Request;
 use Jeylabs\ResumeDbCluster\Jobs\ResumeDbClusterJob;
 
